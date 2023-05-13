@@ -1,0 +1,12 @@
+dimensional_modeling:
+  target: postgres
+  outputs:
+    postgres:  
+      type: postgres
+      host: localhost
+      user: postgres
+      password: '123'
+      port: 5432
+      dbname: postgres
+      schema: dev
+      threads: 12
