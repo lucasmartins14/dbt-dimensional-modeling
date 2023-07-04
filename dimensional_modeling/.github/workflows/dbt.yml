@@ -1,0 +1,36 @@
+name: dbt
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  dbt:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: dbt-version
+        uses: lucasmartins14/dbt-dbt-dimensional-modeling@v1.2.1
+        with:
+          dbt_command: "dbt --version"
+          dbt_project_folder: "dbt_project"
+      - name: dbt-deps
+        uses: lucasmartins14/dbt-dimensional-modeling@v1.2.1
+        with:
+          dbt_command: "dbt deps"
+          dbt_project_folder: "dbt_project"
+      - name: dbt-run
+        uses: lucasmartins14/dbt-dimensional-modeling@v1.2.1
+        with:
+          dbt_command: "dbt run"
+          dbt_project_folder: "dbt_project"
+      - name: dbt-test
+        uses: lucasmartins14/dbt-dimensional-modeling@v1.2.1
+        with:
+          dbt_command: "dbt test"
