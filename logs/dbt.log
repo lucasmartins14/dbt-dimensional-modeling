@@ -24,3 +24,37 @@ Happy modeling!
 [0m13:17:07.430638 [debug] [MainThread]: Command `dbt init` succeeded at 13:17:07.430638 after 5.00 seconds
 [0m13:17:07.430638 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7AE0CFB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7AE80F850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7AE80F790>]}
 [0m13:17:07.431649 [debug] [MainThread]: Flushing usage events
+[0m01:03:33.093798 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DA1838E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DA27E7610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DA2A768D0>]}
+
+
+============================== 01:03:33.098233 | 7be84d06-03a3-476d-a902-ad51547d7401 ==============================
+[0m01:03:33.098233 [info ] [MainThread]: Running with dbt=1.5.0
+[0m01:03:33.098233 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Lucas\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m01:03:33.099232 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Lucas\Documents\Projects\Projects\dbt\dbt-dimensional-modeling\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m01:03:33.100229 [debug] [MainThread]: Command `dbt seed` failed at 01:03:33.100229 after 0.07 seconds
+[0m01:03:33.100229 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DA2469790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DA2756D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D9FD9DE90>]}
+[0m01:03:33.101226 [debug] [MainThread]: Flushing usage events
+[0m01:03:44.603395 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FBB911290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FBB8EA350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016FB9651D10>]}
+
+
+============================== 01:03:44.606386 | dfc60caa-b445-49f4-9f75-fde57b520e88 ==============================
+[0m01:03:44.606386 [info ] [MainThread]: Running with dbt=1.5.0
+[0m01:03:44.607384 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Lucas\\.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m01:04:13.103190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A0D9250A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A0D6861B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A0D8AD8F50>]}
+
+
+============================== 01:04:13.106765 | 8d294914-4841-47d5-b07b-e28731b6bd15 ==============================
+[0m01:04:13.106765 [info ] [MainThread]: Running with dbt=1.5.0
+[0m01:04:13.107762 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Lucas\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m01:04:13.107762 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Lucas\Documents\Projects\Projects\dbt\dbt-dimensional-modeling\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m01:04:13.108761 [debug] [MainThread]: Command `dbt build` failed at 01:04:13.108761 after 0.02 seconds
+[0m01:04:13.109757 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A0D8DFFD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A0D8E84150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A0D8E7BE90>]}
+[0m01:04:13.109757 [debug] [MainThread]: Flushing usage events
